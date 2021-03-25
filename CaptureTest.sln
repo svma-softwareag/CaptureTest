@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptureTest", "CaptureTest\CaptureTest.csproj", "{2AAD5361-0519-483E-95C2-A487FEEFE75F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AAD5361-0519-483E-95C2-A487FEEFE75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAD5361-0519-483E-95C2-A487FEEFE75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAD5361-0519-483E-95C2-A487FEEFE75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAD5361-0519-483E-95C2-A487FEEFE75F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5137E8FA-1890-449D-BCF2-92414DB01ED0}
+	EndGlobalSection
+EndGlobal

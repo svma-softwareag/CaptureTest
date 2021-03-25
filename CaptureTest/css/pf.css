@@ -1,0 +1,288 @@
+﻿.pf-rotate {
+
+-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+transform: rotate(-90deg);
+
+-webkit-transform-origin:0px 0px;
+-moz-transform-origin:0px 0px;
+-ms-transform-origin:0px 0px;
+-o-transform-origin:0px 0px;
+}
+
+.pf-bubble {
+}
+
+.pf-div
+{
+}
+
+.pf-contentdiv
+{
+	position:absolute;
+	left: 20px;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	
+}
+
+.pf-fixcontentdiv
+{
+	position:absolute;
+	/*margin: 20px;*/
+}
+
+.pf-header {
+	overflow:hidden;
+	position: absolute;
+	text-align: center;
+	vertical-align: top;
+}
+
+.pf-svg
+{
+	border-width:1px;
+	border-style:solid;
+	border-top-color:#CCCCCC;
+	border-left-color:#C8C8C8;
+	border-bottom-color:#AAAAAA;
+	border-right-color:#C8C8C8;
+}
+
+table.pf-table
+{
+	table-layout: fixed;
+	width:100%;
+	border-collapse:separate;
+	border-spacing:0;
+	background-color:#FFFFFF;
+	border:0; 	
+}
+
+tbody tr.pf-row
+{
+	background:none;
+}
+
+.pf-empty-row
+{
+	height:15px;
+}
+
+tbody tr.pf-row:hover
+{
+	background:none;
+	background-color:white;
+}
+
+tbody tr.pf-row:hover td > span
+{
+	background-color:white;
+}
+
+tbody td.pf-xcaption {
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+}
+
+tbody td.pf-ycaption
+{
+	text-align:center;
+	vertical-align:middle;
+	padding: 0;
+}
+
+tbody td.pf-ycaption span
+{
+	vertical-align:middle;
+}
+
+tbody td.pf-xcaption span
+{
+	vertical-align:middle;
+}
+
+tbody td.pf-ysegment small
+{
+	vertical-align:bottom;
+	margin: 6px 0px;
+	display: inline-block;
+}
+
+tbody td.pf-xcaption small
+{
+	vertical-align:top;
+}
+
+tbody td.pf-ysegment
+{
+	vertical-align:bottom;
+	text-align:center;
+}
+
+tbody td.pf-xsegment
+{
+	vertical-align:top;
+	text-align:center;
+}
+
+tbody td.pf-xsegment small
+{
+	margin: 6px 0px;
+	display: inline-block;
+}
+
+.pf-svg-back
+{
+	fill:White;
+}
+
+.pf-svg-altzone
+{
+	fill:#F0F0F0;
+}
+
+.pf-svg-gridline
+{
+    stroke:#CCCCCC;
+    stroke-width:1;
+}
+
+tr.pf-arrow-row {
+	background:transparent url('../img/pf-arrow-line.png') repeat-x 0px 10px;
+	height: 23px;
+}
+
+.pf-img-arrow {
+	float: right;
+	top: 0px;
+	width: 23px;
+	right: 23px;
+	height: 23px;
+}
+
+.pf-arrow-div {
+	position: absolute;
+	width: 100%;
+	height: 23px;
+	text-align: center;
+}
+
+.pf-arrow-span {
+ display:inline-block;
+ background-color:white;
+ padding-left:10px;
+ padding-right:10px;
+ margin-top:3px;
+}
+
+.pf-arrow-image {
+	z-index:100;
+	float: right;
+	top: 0px;
+	width: 23px;
+	right: 23px;
+	height: 23px;
+	background:white url('../img/pf-arrow.png') no-repeat 0px 0px;
+}
+
+.pf-bsl {
+	font-style:italic;
+    font-size:11px;
+    vertical-align:top;
+}
+
+.pf-brow {
+    height: 20px;
+}
+
+.pf-bwrapper {
+    width :100%;
+    height: 20px;
+    overflow:hidden;
+    margin-top:20px;
+}
+.pf-bitemwrapper {
+    height: 18px;
+    display:inline-block;
+}
+
+.pf-bsl-cap {
+    vertical-align:top; 
+}
+
+div.pf-empty1 {
+	background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAASCAYAAACaV7S8AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTFH80I3AAAAFElEQVQYV2MgAvz//x87gQcwMAAAgvMO8ml7Q9QAAAAASUVORK5CYII=") no-repeat;
+	height: 18px;
+	width: 1px;
+    display:inline-block;
+}
+
+div.pf-bubble5 {
+	background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAIdJREFUOE9jIAf8//8fBZMNBp9BwwM4APF2IN4PxBEgAaIBUgB6APF5KA0zMAOICQOkmGAEckGuABkAAwJA/B7CJACQDGJmZGR8wM7OrgiVAgEOIP4OYRIASAYxAUElUGg6RAYMQN5aDmESAEgGgTEQtIOEoRhkCMhVhAEWg8gDg8+g4QQYGAAZiILNh/vJgAAAAABJRU5ErkJggg==") no-repeat;
+	height: 18px;
+	width: 18px;
+    display:inline-block;
+    margin: 0px 7px;
+}
+
+div.pf-bubble7 {
+	background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAK5JREFUOE9jIAf8//8fBZMNBp9BAwoigHg/FFcAMQcQkwzWA/FyIHaA4nYgPg7ExBkGDbwMIJ6OJSDB4hAmHoAUC+dZWVkNsRgkAMTvIUw8AMmg+6KiospANiNYAgFA3voOYeIBMIMYGRknMDExFUINRQagsAIFPH4AMwgIQF44D8QeIA4UWAAxSEwDzMMHYAZBDZMA4u0gYSgGxRhhQ0AA2SCoYeQBqhk0nAADAwDHj39/zX5bwgAAAABJRU5ErkJggg==") no-repeat;
+	height: 18px;
+	width: 18px;
+    display:inline-block;
+    margin: 0px 7px;
+}
+div.pf-bubble9 {
+	background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAMVJREFUOE9jIAf8//8fBZMNBp9BpAIJIG4H4v1QPB2IFYCYJGAAxMeBuAKIHaA4A4ivA7EHEBMFQC4BGYLNdg4gBrnOAswjAEBeyMATkCBDQBbhBlCN19nY2DSBbEY8MYI/qqAan8vIyEgD2Swgw8ASmIAog9YzMzMHAtlMUD46AIXdfQgTB4BqBMXYeRAbh0HgMIQwcQAkzaBoXw/EyDEHis1+IJ4P5uEDMIOghgUAMcgLIA4IPwfiAiAmDJANgho2ChgYALN9gmPFn3IWAAAAAElFTkSuQmCC") no-repeat;
+	height: 18px;
+    width: 18px;
+	width: 18px;
+    display:inline-block;
+    margin: 0px 7px;
+}
+div.pf-bubble11 {
+	background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAANRJREFUOE/dkisOwkAURctHIJGVlUiWgGQJyEokS2AHSGQlS0AikUgkEolElnt406SENy3UkHCSk7xOO7dvPkkXyrJ8sTM/C5rKrTwEd3Iuv2ItT3IpZ8GF3MtCjmQrhGysdMklgY2wHDppgx+trPSh7fyDjZzIs5U+F5kpoBe0UZ/Gl1eZKmAgh4TZsEtjEMc8U0A/aKPvjOXNSh9OpCCgMgIbHT/ZMLHqitojk0eZPp88wmTa5kPuU/1jLiEd846wOLXlMIkgNp8BvEuuR7yTfyRJHqh8fsGNmDsBAAAAAElFTkSuQmCC") no-repeat;
+	height: 18px;
+	width: 18px;
+    display:inline-block;
+    margin: 0px 7px;
+}
+div.pf-bubble13 {
+	background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAPBJREFUOE/Nk6sSwjAUBctDICsrK5FIJBKJRPIJ/Ek/AYlEIpFIJBKJRCLL2eSWmdI0lCp2ZmeaJj1Jb5KkD2VZ1uzNr0FLuZMn8yA3snNQKs/yKPlwYa4kwVc5lVEIuci5a4UhhIlmrtUCA2IhFblkZRPX+oClU4euFHLrH+sQsupaSMGvUYYGN5lbwMD0Pe0EB9xlZkEjOSbMd7USDHKFtqCh6XvCsMMP/1iHwhUW9DYCZ4xz1YCtpE7V77mXESh061niBHOi0y9BrMRdlyD2MXeM2RiY8cJgxWtZ9XWCk8us7CTp+JR7Gb0a/0KSvABbjZAvc9xHxwAAAABJRU5ErkJggg==") no-repeat;
+	height: 18px;
+	width: 18px;
+    display:inline-block;
+    margin: 0px 7px;
+}
+div.pf-bubble15 {
+	background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAPhJREFUOE+tk60OwjAUhTdATE5O7hGQk0gkEjmJRE7OTSKRSCQSiUTyCEgeAVnO6V9a0q0b4Uu+pE23s9vbLvkFIYRnjC08w5v2CncwHxtUwSdkCMNW2jU8Qq7VsaAa8uulnIXJ4Qm2chaAX2X5mZzFYXXcqgdfZsmFnI0j+A63xHKnsocHNVRc4IYDt4l9jXRgL1mVhZPSCUi1anUY76EXLJygOVzAVC0P4gXdYeUEzbRqtR82/K2GCt6J1gmyRjC338IjZJ+yCSHEHpJLA7sJQQxgUBDepWZEkAkZ/As6+IDc//eDJiAaYlhCNpEnwtKMwZ78kST5AJirqp1Kr+1+AAAAAElFTkSuQmCC") no-repeat;
+	height: 18px;
+	width: 18px;
+    display:inline-block;
+    margin: 0px 7px;
+}
+div.pf-bubble17 {
+	background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAARFJREFUOE+dlCEQAUEUhvcQRFG8KIqiKIqiKIqiJoqiKIqiKIqiKIri+b/HrT1j5879M9/Muzd3/759b/dcRB0xEwdxDJiLNMsyFxLTUlzFRozEMGAtLmIl2jEjqmBVjIhjaouFOAmr7luYUEFV9cVZFBalVFb5VxOxe4XOdQU9oeQ6oiqqs0qoqK6mYkvAiH1v8knEJvJD9OhOwLZSgsAgeUO6iuzFm6BPoVFTtERCvoLMiPMwsKePUeMN6TIxpAeBH31g5KkgTjxn0B+sOiaIq8S9NO3FuIaRLyIXIyRRuNklojd807OnQLm7Nb5EfMyQoneT88QLtlUSX2IxesKvxK5FmTDBjP2FULFv7EfOPQFbGK2aY4GJ5gAAAABJRU5ErkJggg==") no-repeat;
+	height: 18px;
+	width: 18px;
+    display:inline-block;
+    margin: 0px 7px;
+}
+
+
+.pf-black { fill:black; }
+.pf-green { fill:#0ab30a; }
+.pf-red { fill:#b1090c; }
+.pf-orange { fill:#f29400; }
+.pf-grey { fill:#aaaaaa; }
+
+.pf-l-black { background-color:black; border: 1px Solid dimgray; }
+.pf-l-green { background-color:#0ab30a; border: 1px Solid dimgray; }
+.pf-l-red { background-color:#b1090c; border: 1px Solid dimgray; }
+.pf-l-orange { background-color:#f29400; border: 1px Solid dimgray; }
+.pf-l-grey { background-color:#aaaaaa; border: 1px Solid dimgray; }
